@@ -2,12 +2,12 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import Home from "./pages/Home";
-import Lodging from "./pages/Lodging";
-import Error from "./pages/Error";
-import About from "./pages/About";
+import Home from "./pages/Home/Home";
+import Lodging from "./pages/Lodging/Lodging";
+import Error from "./pages/Error/Error";
+import About from "./pages/About/About";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Router>
@@ -22,6 +22,6 @@ function App() {
       </Router>
     </div>
   );
-}
+};
 
 export default App;

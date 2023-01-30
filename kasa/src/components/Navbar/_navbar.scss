@@ -1,0 +1,10 @@
+.navbar {
+  display: flex;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 500;
+  .nav-link {
+    margin-left: 10px;
+    color: #ff6060;
+  }
+}

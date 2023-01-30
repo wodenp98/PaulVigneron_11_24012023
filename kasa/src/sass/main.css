@@ -1,1 +1,94 @@
-/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button,
+input {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+body {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.banner {
+  position: relative;
+  height: 111px;
+  width: 88.8%;
+  max-width: 1280px;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.banner .homeTitle {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0px;
+  z-index: 1;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  color: white;
+  padding: 0 16px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/src/assets/imghome.png");
+  background-size: cover;
+  background-position: center;
+}
+.banner .homeTitle h2 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 20px auto 0;
+  max-width: 1240px;
+  width: 90%;
+}
+.header h1 {
+  margin: 0;
+  padding: 0;
+}
+.header h1 .header-logo {
+  height: 47px;
+}
+
+.navbar {
+  display: flex;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.navbar .nav-link {
+  margin-left: 10px;
+  color: #ff6060;
+}
+
+.main {
+  padding-top: 22px;
+}/*# sourceMappingURL=main.css.map */
