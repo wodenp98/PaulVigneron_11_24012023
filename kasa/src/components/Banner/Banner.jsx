@@ -1,10 +1,10 @@
 import React from "react";
 
-const Banner = ({ text }) => {
+const Banner = ({ title }) => {
   return (
     <div>
       <div className="homeTitle">
-        <h2>{text}</h2>
+        <h2>{title}</h2>
       </div>
     </div>
   );

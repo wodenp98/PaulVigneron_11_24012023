@@ -15,11 +15,11 @@ const Home = () => {
   return (
     <main className="main">
       <div className="banner">
-        <Banner text={<TitleBanner />} />
+        <Banner title={<TitleBanner />} />
       </div>
       <div className="gallery">
         {Data.map(({ id, title, cover }) => (
-          <Cards key={id} id={id} title={title} cover={cover} />
+          <Cards key={id} id={id} title={title} img={cover} />
         ))}
       </div>
     </main>

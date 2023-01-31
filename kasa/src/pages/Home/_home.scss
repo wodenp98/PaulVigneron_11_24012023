@@ -1,3 +1,19 @@
 .main {
   padding-top: 22px;
 }
+
+.gallery {
+  margin: 0 auto;
+  padding: 0px;
+  border-radius: 25px;
+  background-color: transparent;
+  width: 88.8%;
+  max-width: 1280px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
