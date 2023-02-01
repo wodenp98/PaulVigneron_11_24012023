@@ -1,7 +1,7 @@
 .banner {
   position: relative;
-  height: 111px;
-  width: 88.8%;
+  height: 223px;
+  width: 90%;
   max-width: 1280px;
   margin: 0 auto;
   border-radius: 10px;
@@ -20,13 +20,28 @@
     height: 100%;
     color: white;
     padding: 0 16px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url("/src/assets/imghome.png");
-    background-size: cover;
-    background-position: center;
     h2 {
       font-size: 24px;
       font-weight: 500;
     }
   }
+}
+
+.imgHome {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/src/assets/imghome.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.imgAbout {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/src/assets/imgAbout.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.home {
+  height: 111px;
+  border-radius: 10px;
 }

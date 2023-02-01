@@ -28,7 +28,7 @@ const About = () => {
   return (
     <main className="aboutPage">
       <div className="banner">
-        <Banner />
+        <Banner imgBg="imgAbout" />
       </div>
       <div className="aboutDropdown">
         {dropdowns.map(({ id, title, text }) => (

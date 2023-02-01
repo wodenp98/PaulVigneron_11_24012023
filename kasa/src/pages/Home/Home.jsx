@@ -14,8 +14,8 @@ const TitleBanner = () => {
 const Home = () => {
   return (
     <main className="main">
-      <div className="banner">
-        <Banner title={<TitleBanner />} />
+      <div className="banner home">
+        <Banner title={<TitleBanner />} imgBg="imgHome" />
       </div>
       <div className="gallery">
         {Data.map(({ id, title, cover }) => (
