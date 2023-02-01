@@ -70,7 +70,6 @@ body {
 
 .home {
   height: 111px;
-  border-radius: 10px;
 }
 
 .header {
@@ -84,16 +83,11 @@ body {
   max-width: 1240px;
   width: 90%;
 }
-.header h1 {
-  margin: 0;
-  padding: 0;
-}
 .header h1 .header-logo {
   height: 47px;
 }
 
 .navbar {
-  display: flex;
   font-size: 12px;
   text-transform: uppercase;
   font-weight: 500;
@@ -130,18 +124,13 @@ footer h3 {
 }
 
 .gallery {
-  margin: 0 auto;
-  padding: 0px;
   border-radius: 25px;
   background-color: transparent;
-  width: 88.8%;
+  width: 90%;
   max-width: 1280px;
-  box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   margin: 0 auto;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -177,7 +166,6 @@ footer h3 {
 .card .image {
   z-index: 1;
   position: absolute;
-  width: 100%;
   height: 100%;
   box-sizing: border-box;
   -o-object-fit: cover;
@@ -200,7 +188,6 @@ footer h3 {
   margin: 20px auto 0px;
 }
 .aboutPage .aboutDropdown .dropdown .dropdownHeader h3 {
-  margin: 0;
   font-size: 13px;
   font-weight: 500;
 }
