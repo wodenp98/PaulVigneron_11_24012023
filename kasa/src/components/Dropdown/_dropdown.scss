@@ -1,5 +1,6 @@
 .dropdown {
   width: 100%;
+  margin: 20px auto 0;
   .dropdownHeader {
     display: flex;
     justify-content: space-between;
@@ -11,9 +12,6 @@
     height: 30px;
     border-radius: 5px;
     cursor: pointer;
-    h3 {
-      font-size: 13px;
-    }
   }
 }
 

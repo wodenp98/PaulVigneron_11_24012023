@@ -1,8 +1,60 @@
 .lodgingPage {
   margin: 20px auto 0;
   width: 90%;
-  max-width: 1280px;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
+  max-width: 1280px;
+
+  color: #ff6060;
+  .presentation {
+    margin-top: 15px;
+    h2 {
+      margin: 0 0 10px;
+      font-size: 18px;
+      font-weight: 500;
+    }
+    p {
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+
+  .landlord {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 9px;
+    min-width: fit-content;
+    .landlordInformation {
+      display: flex;
+      align-items: center;
+      .landlordName {
+        text-align: end;
+        p {
+          padding-top: 2px;
+          font-size: 12px;
+          font-weight: 500;
+        }
+      }
+    }
+    .landlordImage {
+      margin-left: 10px;
+      height: 32px;
+      img {
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+.description {
+  .dropdownHeader {
+    h3 {
+      margin: 0;
+      font-size: 13px;
+      font-weight: 500;
+    }
+  }
 }

@@ -43,7 +43,6 @@ body {
   align-items: center;
   box-sizing: border-box;
   position: absolute;
-  left: 0px;
   z-index: 1;
   max-width: 100%;
   width: 100%;
@@ -52,7 +51,6 @@ body {
   padding: 0 16px;
 }
 .banner .homeTitle h2 {
-  font-size: 24px;
   font-weight: 500;
 }
 
@@ -82,9 +80,6 @@ body {
   margin: 20px auto 0;
   max-width: 1240px;
   width: 90%;
-}
-.header h1 .header-logo {
-  height: 47px;
 }
 
 .navbar {
@@ -150,11 +145,9 @@ footer h3 {
   margin: 0px 20px 15px;
   bottom: 0px;
   max-width: 100%;
-  overflow: hidden;
   color: white;
   font-size: 18px;
   font-weight: 500;
-  text-align: left;
 }
 .card .gradient {
   position: absolute;
@@ -183,9 +176,6 @@ footer h3 {
   max-width: 1280px;
   margin: 0 auto;
   box-sizing: border-box;
-}
-.aboutPage .aboutDropdown .dropdown {
-  margin: 20px auto 0px;
 }
 .aboutPage .aboutDropdown .dropdown .dropdownHeader h3 {
   font-size: 13px;
@@ -219,6 +209,7 @@ footer h3 {
 
 .dropdown {
   width: 100%;
+  margin: 20px auto 0;
 }
 .dropdown .dropdownHeader {
   display: flex;
@@ -232,9 +223,6 @@ footer h3 {
   border-radius: 5px;
   cursor: pointer;
 }
-.dropdown .dropdownHeader h3 {
-  font-size: 13px;
-}
 
 .chevron {
   width: 20px;
@@ -243,10 +231,59 @@ footer h3 {
 .lodgingPage {
   margin: 20px auto 0;
   width: 90%;
-  max-width: 1280px;
   height: 100vh;
+  max-width: 1280px;
+  color: #ff6060;
+}
+.lodgingPage .presentation {
+  margin-top: 15px;
+}
+.lodgingPage .presentation h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.lodgingPage .presentation p {
+  font-size: 14px;
+  font-weight: 500;
+}
+.lodgingPage .landlord {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 9px;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+}
+.lodgingPage .landlord .landlordInformation {
+  display: flex;
+  align-items: center;
+}
+.lodgingPage .landlord .landlordInformation .landlordName {
+  text-align: end;
+}
+.lodgingPage .landlord .landlordInformation .landlordName p {
+  padding-top: 2px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.lodgingPage .landlord .landlordImage {
+  margin-left: 10px;
+  height: 32px;
+}
+.lodgingPage .landlord .landlordImage img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+.description .dropdownHeader h3 {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 500;
 }
 
 .carousel {
@@ -275,7 +312,6 @@ footer h3 {
 }
 
 .carouselImage {
-  width: 100%;
   height: 100%;
 }
 .carouselImage img {
@@ -285,4 +321,31 @@ footer h3 {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+.tags .tag {
+  display: flex;
+  padding: 0px 22px;
+  height: 18px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 10px;
+  border-radius: 10px;
+  font-size: 10px;
+  margin-bottom: 5px;
+  color: white;
+  background-color: #ff6060;
+}
+.tags .tag span {
+  margin: auto;
+}
+
+.rating img {
+  height: 15px;
 }/*# sourceMappingURL=main.css.map */
