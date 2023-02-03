@@ -32,7 +32,7 @@ const About = () => {
       </div>
       <div className="aboutDropdown">
         {dropdowns.map(({ id, title, text }) => (
-          <Dropdown key={id} title={title} content={text} />
+          <Dropdown key={id} title={title} text={text} />
         ))}
       </div>
     </main>
