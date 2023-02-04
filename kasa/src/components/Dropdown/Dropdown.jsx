@@ -15,16 +15,15 @@ const Dropdown = ({ title, text }) => {
           <img src={ChevronUp} alt="chevron" className="chevron" />
         )}
       </div>
-      <div>
-        {typeof text === "string"
-          ? !collapsed && <p className="dropdownText"> {text}</p>
-          : !collapsed &&
-            text.map((item, index) => (
-              <p className="dropdownText" key={index}>
-                {item}
-              </p>
-            ))}
-      </div>
+      {!collapsed && (
+        <div className="dropdownText">
+          {typeof text === "string" ? (
+            <p> {text}</p>
+          ) : (
+            text.map((item, index) => <li key={index}>{item}</li>)
+          )}
+        </div>
+      )}
     </div>
   );
 };

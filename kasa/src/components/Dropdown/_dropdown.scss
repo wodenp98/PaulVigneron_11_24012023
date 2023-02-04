@@ -13,6 +13,19 @@
     border-radius: 5px;
     cursor: pointer;
   }
+  .dropdownText {
+    padding: 18px 18px 18px;
+    background-color: #f6f6f6;
+    border-radius: 0 0 5px 5px;
+    p {
+      font-size: 12px;
+      color: #ff6060;
+    }
+    li {
+      list-style-type: none;
+      font-size: 12px;
+    }
+  }
 }
 
 .chevron {
