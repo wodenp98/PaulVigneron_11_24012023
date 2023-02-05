@@ -7,6 +7,10 @@
   box-sizing: border-box;
   margin: 22px auto 0;
   border-radius: 10px;
+
+  .imgLodging {
+    height: 100%;
+  }
   .title {
     position: absolute;
     z-index: 5;
@@ -16,26 +20,5 @@
     color: white;
     font-size: 18px;
     font-weight: 500;
-  }
-
-  .gradient {
-    position: absolute;
-    z-index: 3;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0) 0%,
-      rgba(0, 0, 0, 0.5) 100%
-    );
-  }
-
-  .image {
-    z-index: 1;
-    position: absolute;
-    height: 100%;
-    box-sizing: border-box;
-    object-fit: cover;
-    object-position: center;
   }
 }

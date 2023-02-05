@@ -1,13 +1,23 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
+  const location = useLocation();
+
   return (
     <nav className="navbar">
-      <Link className="nav-link" to="/">
+      <Link
+        className={location.pathname === "/" ? "nav-link active" : "nav-link"}
+        to="/"
+      >
         Accueil
       </Link>
-      <Link className="nav-link" to="/about">
+      <Link
+        className={
+          location.pathname === "/about" ? "nav-link active" : "nav-link"
+        }
+        to="/about"
+      >
         A propos
       </Link>
     </nav>

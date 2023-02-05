@@ -5,14 +5,14 @@ import arrowRight from "../../assets/chevronRight.png";
 const Carousel = ({ imgCarousel }) => {
   const [index, setIndex] = useState(0);
 
-  const prevImage = () => {
-    const newIndex = index === 0 ? imgCarousel.length - 1 : index - 1;
-    setIndex(newIndex);
+  const previousImage = () => {
+    const indexImg = index === 0 ? imgCarousel.length - 1 : index - 1;
+    setIndex(indexImg);
   };
 
   const nextImage = () => {
-    const newIndex = index === imgCarousel.length - 1 ? 0 : index + 1;
-    setIndex(newIndex);
+    const indexImg = index === imgCarousel.length - 1 ? 0 : index + 1;
+    setIndex(indexImg);
   };
 
   return (
@@ -21,7 +21,7 @@ const Carousel = ({ imgCarousel }) => {
         src={arrowLeft}
         alt="Previous"
         className="previous"
-        onClick={prevImage}
+        onClick={previousImage}
       />
       <div className="carouselImage" key={index}>
         <img key={index} src={imgCarousel[index]} alt="Photos appartement" />

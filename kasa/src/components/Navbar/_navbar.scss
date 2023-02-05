@@ -5,5 +5,8 @@
   .nav-link {
     margin-left: 10px;
     color: #ff6060;
+    &.active {
+      border-bottom: 1px solid #ff6060;
+    }
   }
 }
