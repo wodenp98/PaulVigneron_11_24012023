@@ -6,4 +6,14 @@
   margin: 20px auto 0;
   max-width: 1240px;
   width: 90%;
+  .header-logo {
+    height: 47px;
+    object-fit: cover;
+  }
+  @media screen and (min-width: $desktop) {
+    margin: 40px auto 0;
+    .header-logo {
+      height: 68px;
+    }
+  }
 }

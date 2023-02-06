@@ -26,6 +26,21 @@
       font-size: 12px;
     }
   }
+  @media screen and (min-width: $desktop) {
+    width: 85%;
+    .dropdownHeader {
+      height: 40px;
+    }
+    .dropdownText {
+      padding: 25px 18px 18px;
+      p {
+        font-size: 24px;
+      }
+      li {
+        font-size: 24px;
+      }
+    }
+  }
 }
 
 .chevron {

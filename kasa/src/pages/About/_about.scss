@@ -15,4 +15,15 @@
       }
     }
   }
+  @media screen and (min-width: $desktop) {
+    .aboutDropdown {
+      .dropdown {
+        .dropdownHeader {
+          h3 {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
 }

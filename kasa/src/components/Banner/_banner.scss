@@ -23,6 +23,16 @@
       font-weight: 500;
     }
   }
+
+  @media screen and (min-width: $desktop) {
+    border-radius: 25px;
+    .homeTitle {
+      justify-content: center;
+      h2 {
+        font-size: 48px;
+      }
+    }
+  }
 }
 
 .imgHome {
@@ -41,4 +51,7 @@
 
 .home {
   height: 111px;
+  @media screen and (min-width: $desktop) {
+    height: 223px;
+  }
 }

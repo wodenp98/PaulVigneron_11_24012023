@@ -55,5 +55,11 @@
       font-size: 13px;
       font-weight: 500;
     }
+    @media screen and (min-width: $desktop) {
+      height: 45px;
+      h3 {
+        font-size: 24px;
+      }
+    }
   }
 }

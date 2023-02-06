@@ -7,6 +7,11 @@
   box-sizing: border-box;
   margin: 22px auto 0;
   border-radius: 10px;
+  @media screen and (min-width: $desktop) {
+    width: 340px;
+    height: 340px;
+    margin-bottom: 50px;
+  }
 
   .imgLodging {
     height: 100%;

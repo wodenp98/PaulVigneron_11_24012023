@@ -21,4 +21,19 @@
     font-size: 14px;
     font-weight: 500;
   }
+  @media screen and (min-width: $desktop) {
+    h1 {
+      margin: 0 auto 36px;
+      font-size: 288px;
+    }
+
+    p {
+      margin: 0 auto 182px;
+      font-size: 36px;
+    }
+
+    .errorLink {
+      font-size: 18px;
+    }
+  }
 }

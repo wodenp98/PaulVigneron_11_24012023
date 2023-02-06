@@ -53,6 +53,17 @@ body {
 .banner .homeTitle h2 {
   font-weight: 500;
 }
+@media screen and (min-width: 1024px) {
+  .banner {
+    border-radius: 25px;
+  }
+  .banner .homeTitle {
+    justify-content: center;
+  }
+  .banner .homeTitle h2 {
+    font-size: 48px;
+  }
+}
 
 .imgHome {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/src/assets/imghome.png");
@@ -69,6 +80,11 @@ body {
 .home {
   height: 111px;
 }
+@media screen and (min-width: 1024px) {
+  .home {
+    height: 223px;
+  }
+}
 
 .header {
   display: flex;
@@ -80,6 +96,19 @@ body {
   margin: 20px auto 0;
   max-width: 1240px;
   width: 90%;
+}
+.header .header-logo {
+  height: 47px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media screen and (min-width: 1024px) {
+  .header {
+    margin: 40px auto 0;
+  }
+  .header .header-logo {
+    height: 68px;
+  }
 }
 
 .navbar {
@@ -93,6 +122,14 @@ body {
 }
 .navbar .nav-link.active {
   border-bottom: 1px solid #ff6060;
+}
+@media screen and (min-width: 1024px) {
+  .navbar {
+    font-size: 24px;
+  }
+  .navbar .nav-link {
+    margin-left: 20px;
+  }
 }
 
 footer {
@@ -116,9 +153,24 @@ footer h3 {
   font-size: 12px;
   font-weight: 500;
 }
+@media screen and (min-width: 1024px) {
+  footer {
+    margin-top: 64px;
+  }
+  footer h3 {
+    margin: 40px 0px 0px;
+    color: white;
+    font-size: 24px;
+  }
+}
 
 .main {
-  padding-top: 22px;
+  margin-top: 16px;
+}
+@media screen and (min-width: 1024px) {
+  .main {
+    margin-top: 59px;
+  }
 }
 
 .gallery {
@@ -131,6 +183,14 @@ footer h3 {
   margin: 0 auto;
   box-sizing: border-box;
 }
+@media screen and (min-width: 1024px) {
+  .gallery {
+    margin: 43px auto 0;
+    background-color: #f6f6f6;
+    margin-bottom: 59px;
+    padding-top: 30px;
+  }
+}
 
 .card {
   position: relative;
@@ -141,6 +201,13 @@ footer h3 {
   box-sizing: border-box;
   margin: 22px auto 0;
   border-radius: 10px;
+}
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 340px;
+    height: 340px;
+    margin-bottom: 50px;
+  }
 }
 .card .imgLodging {
   height: 100%;
@@ -170,6 +237,11 @@ footer h3 {
   font-size: 13px;
   font-weight: 500;
 }
+@media screen and (min-width: 1024px) {
+  .aboutPage .aboutDropdown .dropdown .dropdownHeader h3 {
+    font-size: 24px;
+  }
+}
 
 .errorPage {
   margin: 120px auto 0px;
@@ -194,6 +266,19 @@ footer h3 {
   text-decoration: underline;
   font-size: 14px;
   font-weight: 500;
+}
+@media screen and (min-width: 1024px) {
+  .errorPage h1 {
+    margin: 0 auto 36px;
+    font-size: 288px;
+  }
+  .errorPage p {
+    margin: 0 auto 182px;
+    font-size: 36px;
+  }
+  .errorPage .errorLink {
+    font-size: 18px;
+  }
 }
 
 .dropdown {
@@ -224,6 +309,23 @@ footer h3 {
 .dropdown .dropdownText li {
   list-style-type: none;
   font-size: 12px;
+}
+@media screen and (min-width: 1024px) {
+  .dropdown {
+    width: 85%;
+  }
+  .dropdown .dropdownHeader {
+    height: 40px;
+  }
+  .dropdown .dropdownText {
+    padding: 25px 18px 18px;
+  }
+  .dropdown .dropdownText p {
+    font-size: 24px;
+  }
+  .dropdown .dropdownText li {
+    font-size: 24px;
+  }
 }
 
 .chevron {
@@ -285,6 +387,14 @@ footer h3 {
   margin: 0;
   font-size: 13px;
   font-weight: 500;
+}
+@media screen and (min-width: 1024px) {
+  .description .dropdownHeader {
+    height: 45px;
+  }
+  .description .dropdownHeader h3 {
+    font-size: 24px;
+  }
 }
 
 .carousel {

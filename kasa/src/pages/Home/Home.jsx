@@ -3,12 +3,7 @@ import Data from "../../data/apartments.json";
 import Cards from "../../components/Cards/Cards";
 
 const TitleBanner = () => {
-  return (
-    <>
-      Chez vous, <br />
-      partout et ailleurs
-    </>
-  );
+  return <>Chez vous, partout et ailleurs</>;
 };
 
 const Home = () => {

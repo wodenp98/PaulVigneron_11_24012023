@@ -1,5 +1,8 @@
 .main {
-  padding-top: 22px;
+  margin-top: 16px;
+  @media screen and (min-width: $desktop) {
+    margin-top: 59px;
+  }
 }
 
 .gallery {
@@ -11,4 +14,10 @@
   flex-wrap: wrap;
   margin: 0 auto;
   box-sizing: border-box;
+  @media screen and (min-width: $desktop) {
+    margin: 43px auto 0;
+    background-color: #f6f6f6;
+    margin-bottom: 59px;
+    padding-top: 30px;
+  }
 }
