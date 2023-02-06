@@ -2,15 +2,11 @@ import Banner from "../../components/Banner/Banner";
 import Data from "../../data/apartments.json";
 import Cards from "../../components/Cards/Cards";
 
-const TitleBanner = () => {
-  return <>Chez vous, partout et ailleurs</>;
-};
-
 const Home = () => {
   return (
     <main className="main">
       <div className="banner home">
-        <Banner title={<TitleBanner />} imgBg="imgHome" />
+        <Banner title="Chez vous, partout et ailleurs" imgBg="imgHome" />
       </div>
       <div className="gallery">
         {Data.map(({ id, title, cover }) => (

@@ -13,8 +13,14 @@
     margin-bottom: 5px;
     color: white;
     background-color: #ff6060;
+    @media screen and (min-width: $desktop) {
+      height: 25px;
+    }
     span {
       margin: auto;
+      @media screen and (min-width: $desktop) {
+        font-size: 14px;
+      }
     }
   }
 }

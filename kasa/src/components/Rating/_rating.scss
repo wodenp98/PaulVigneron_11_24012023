@@ -1,5 +1,9 @@
 .rating {
   img {
     height: 15px;
+    object-fit: cover;
+    @media screen and (min-width: $desktop) {
+      height: 30px;
+    }
   }
 }

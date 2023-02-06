@@ -51,9 +51,10 @@ body {
   padding: 0 16px;
 }
 .banner .homeTitle h2 {
+  width: 71%;
   font-weight: 500;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 650px) {
   .banner {
     border-radius: 25px;
   }
@@ -80,7 +81,7 @@ body {
 .home {
   height: 111px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 650px) {
   .home {
     height: 223px;
   }
@@ -102,7 +103,7 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 650px) {
   .header {
     margin: 40px auto 0;
   }
@@ -123,12 +124,12 @@ body {
 .navbar .nav-link.active {
   border-bottom: 1px solid #ff6060;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 650px) {
   .navbar {
     font-size: 24px;
   }
   .navbar .nav-link {
-    margin-left: 20px;
+    margin-left: 50px;
   }
 }
 
@@ -153,7 +154,7 @@ footer h3 {
   font-size: 12px;
   font-weight: 500;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 650px) {
   footer {
     margin-top: 64px;
   }
@@ -167,7 +168,7 @@ footer h3 {
 .main {
   margin-top: 16px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 650px) {
   .main {
     margin-top: 59px;
   }
@@ -183,7 +184,7 @@ footer h3 {
   margin: 0 auto;
   box-sizing: border-box;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 650px) {
   .gallery {
     margin: 43px auto 0;
     background-color: #f6f6f6;
@@ -202,7 +203,7 @@ footer h3 {
   margin: 22px auto 0;
   border-radius: 10px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 650px) {
   .card {
     width: 340px;
     height: 340px;
@@ -237,7 +238,10 @@ footer h3 {
   font-size: 13px;
   font-weight: 500;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 650px) {
+  .aboutPage {
+    margin-top: 59px;
+  }
   .aboutPage .aboutDropdown .dropdown .dropdownHeader h3 {
     font-size: 24px;
   }
@@ -267,7 +271,7 @@ footer h3 {
   font-size: 14px;
   font-weight: 500;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 650px) {
   .errorPage h1 {
     margin: 0 auto 36px;
     font-size: 288px;
@@ -310,7 +314,7 @@ footer h3 {
   list-style-type: none;
   font-size: 12px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 650px) {
   .dropdown {
     width: 85%;
   }
@@ -338,6 +342,11 @@ footer h3 {
   max-width: 1280px;
   color: #ff6060;
 }
+@media screen and (min-width: 650px) {
+  .lodgingPage {
+    margin-top: 59px;
+  }
+}
 .lodgingPage .presentation {
   margin-top: 15px;
 }
@@ -346,9 +355,19 @@ footer h3 {
   font-size: 18px;
   font-weight: 500;
 }
+@media screen and (min-width: 650px) {
+  .lodgingPage .presentation h2 {
+    font-size: 36px;
+  }
+}
 .lodgingPage .presentation p {
   font-size: 14px;
   font-weight: 500;
+}
+@media screen and (min-width: 650px) {
+  .lodgingPage .presentation p {
+    font-size: 18px;
+  }
 }
 .lodgingPage .landlord {
   display: flex;
@@ -372,9 +391,19 @@ footer h3 {
   font-size: 12px;
   font-weight: 500;
 }
+@media screen and (min-width: 650px) {
+  .lodgingPage .landlord .landlordInformation .landlordName p {
+    font-size: 18px;
+  }
+}
 .lodgingPage .landlord .landlordImage {
   margin-left: 10px;
   height: 32px;
+}
+@media screen and (min-width: 650px) {
+  .lodgingPage .landlord .landlordImage {
+    height: 64px;
+  }
 }
 .lodgingPage .landlord .landlordImage img {
   height: 100%;
@@ -388,12 +417,28 @@ footer h3 {
   font-size: 13px;
   font-weight: 500;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 650px) {
   .description .dropdownHeader {
     height: 45px;
   }
   .description .dropdownHeader h3 {
     font-size: 24px;
+  }
+}
+@media screen and (min-width: 650px) {
+  .description {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .description .dropdown {
+    width: 45%;
+    margin: 0;
+  }
+  .description .dropdown .dropdownText p,
+.description .dropdown .dropdownText li {
+    font-size: 18px;
   }
 }
 
@@ -402,6 +447,11 @@ footer h3 {
   height: 255px;
   border-radius: 10px;
   overflow: hidden;
+}
+@media screen and (min-width: 650px) {
+  .carousel {
+    height: 415px;
+  }
 }
 
 .next {
@@ -412,6 +462,11 @@ footer h3 {
   z-index: 10;
   cursor: pointer;
 }
+@media screen and (min-width: 650px) {
+  .next {
+    width: 30px;
+  }
+}
 
 .previous {
   position: absolute;
@@ -420,6 +475,11 @@ footer h3 {
   left: 6px;
   z-index: 10;
   cursor: pointer;
+}
+@media screen and (min-width: 650px) {
+  .previous {
+    width: 30px;
+  }
 }
 
 .carouselImage {
@@ -453,10 +513,27 @@ footer h3 {
   color: white;
   background-color: #ff6060;
 }
+@media screen and (min-width: 650px) {
+  .tags .tag {
+    height: 25px;
+  }
+}
 .tags .tag span {
   margin: auto;
+}
+@media screen and (min-width: 650px) {
+  .tags .tag span {
+    font-size: 14px;
+  }
 }
 
 .rating img {
   height: 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media screen and (min-width: 650px) {
+  .rating img {
+    height: 30px;
+  }
 }/*# sourceMappingURL=main.css.map */
