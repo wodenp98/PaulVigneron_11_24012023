@@ -33,9 +33,11 @@ const Lodging = () => {
         <Carousel imgCarousel={pictures} />
 
         <div className="presentation">
-          <h2>{title}</h2>
-          <p>{location}</p>
-          <Tags tags={tags} />
+          <div className="presentationDesktop">
+            <h2>{title}</h2>
+            <p>{location}</p>
+            <Tags tags={tags} />
+          </div>
 
           <div className="landlord">
             <div className="landlordInformation">

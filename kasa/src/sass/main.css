@@ -369,6 +369,18 @@ footer h3 {
     font-size: 18px;
   }
 }
+@media screen and (min-width: 650px) {
+  .lodgingPage .presentation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  .lodgingPage .presentation .presentationDesktop {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .lodgingPage .landlord {
   display: flex;
   flex-direction: row-reverse;
@@ -378,6 +390,12 @@ footer h3 {
   min-width: -webkit-fit-content;
   min-width: -moz-fit-content;
   min-width: fit-content;
+}
+@media screen and (min-width: 650px) {
+  .lodgingPage .landlord {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .lodgingPage .landlord .landlordInformation {
   display: flex;

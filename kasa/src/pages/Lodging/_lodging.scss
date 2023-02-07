@@ -25,6 +25,16 @@
         font-size: 18px;
       }
     }
+    @media screen and (min-width: $desktop) {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 40px;
+      .presentationDesktop {
+        display: flex;
+        flex-direction: column;
+      }
+    }
   }
 
   .landlord {
@@ -34,6 +44,10 @@
     align-items: center;
     margin-top: 9px;
     min-width: fit-content;
+    @media screen and (min-width: $desktop) {
+      display: flex;
+      flex-direction: column;
+    }
     .landlordInformation {
       display: flex;
       align-items: center;
